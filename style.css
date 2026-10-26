@@ -54,6 +54,15 @@
 .footer-inner p, .footer-inner small { margin: 0; color: var(--muted); font-size: .75rem; }
 .footer-links { display: flex; gap: 18px; color: var(--muted); font-size: .76rem; }
 
+.profile-photo {
+  width: 290px;
+  height: 350px;
+  object-fit: cover;
+  border: 1px solid #96c8ff4d;
+  border-radius: 48% 48% 22px 22px;
+  box-shadow: 0 28px 80px #0005;
+}
+
 /* Small screens: the CSS-only checkbox reveals the navigation menu. */
 @media (max-width: 850px) {
   .nav-links { gap: 17px; font-size: .8rem; }
